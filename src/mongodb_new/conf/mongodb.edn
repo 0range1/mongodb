@@ -1,0 +1,10 @@
+{
+ :host "127.0.0.1"
+ :port 27017
+ :db-name "user-order"
+ :coll-user "user"
+ :coll-product "product"
+ :coll-order "order"
+ :connectTimeoutMS 10000000
+ :socketTimeoutMS 10000
+ }
