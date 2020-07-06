@@ -7,10 +7,10 @@ before_script:
   - sleep 15
   - mongod --version
 script: lein do clean, javac, test
+
 jdk:
-  - openjdk10
-  - oraclejdk11
-  - openjdk12
+  - openjdk8
+
 services:
   - mongodb
 after_success:
